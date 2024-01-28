@@ -1,6 +1,5 @@
 import pygame, sys
 from settings import *
-from tiles import Tile
 from level import Level
 
 pygame.init()
@@ -16,7 +15,7 @@ while True:
             sys.exit()
 
     screen.fill("black")
-    level.run
+    level.run()
  #   test_tile.draw(screen)
     pygame.display.update()
     clock.tick(60)
